@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pmGU72XuLKDqJ5v0PYyXCgyEWwnylr2kx1JmDDorJhu6sCMk97fmAGnoWzA4XTv2CBVGisSRcbY0GyIV3LuHUA==",
+  "dgSpecHash": "dMrGgW2UNbgnufezfsfAIaVzA1JcBVwCk+Hiiea7ucjJlfA7WNYq8yc3Gh9xEkYOl82mpe2qBlwmJunyr9WHIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Infrastructure\\TelephoneBook.Contact.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
