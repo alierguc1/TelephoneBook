@@ -1,0 +1,17 @@
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Application.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Domain.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Application.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\bin\Debug\net6.0\TelephoneBook.Contact.Domain.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.csproj.CopyComplete
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\refint\TelephoneBook.Contact.Infrastructure.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\TelephoneBook.Contact.Infrastructure.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.Infrastructure\obj\Debug\net6.0\ref\TelephoneBook.Contact.Infrastructure.dll

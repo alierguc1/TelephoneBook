@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oAm3chh45te7HkCTLizWhtDKPl/lN4o001VVy7YtuuET4+iE69lwoMZjYg5ad8oQ/NPMOqursO2iifLAJJHzWA==",
+  "dgSpecHash": "4mejajhtN/bC9eOCDV4zmr1lGx6bFENhSoYJdUh1gbd/k8QKWpFMXjBssF+TY3F6acZshiEuGAqIy5Ag+qJ79w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Infrastructure\\TelephoneBook.Contact.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Cihan\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
