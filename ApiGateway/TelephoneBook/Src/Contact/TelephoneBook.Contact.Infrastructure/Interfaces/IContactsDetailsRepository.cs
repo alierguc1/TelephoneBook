@@ -9,9 +9,9 @@ namespace TelephoneBook.Contact.Infrastructure.Interfaces
 {
     public interface IContactsDetailsRepository
     {
-        Task<ContactDetails> CreateContactInfoAsync(ContactDetails @addContactDetails);
-        Task<bool> DeleteContactInfoAsync(string @id);
-        Task<List<ContactDetails>> GetAllContactDetailsAsync();
+        Task<ContactDetails> CreateContactDetailsAsync(ContactDetails @addContactDetails);
+        Task<bool> DeleteContactDetailsAsync(string @id);
+        Task<List<ContactDetails>> GetAllContactDetailsListAsync();
         Task<List<ContactDetails>> GetContactDetailsByContactIdAsync(string @contactId);
     }
 }

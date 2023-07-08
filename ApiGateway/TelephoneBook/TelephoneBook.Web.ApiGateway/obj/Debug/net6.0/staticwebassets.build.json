@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4RK7E7D+5kDZzLImO4KGwKtwewpR+M2Jo8EOFRYvUOc=",
+  "Source": "TelephoneBook.Web.ApiGateway",
+  "BasePath": "_content/TelephoneBook.Web.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

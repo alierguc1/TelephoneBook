@@ -20,24 +20,26 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
             _contactDetailsCollection = db.GetCollection<ContactDetails>(mongoDatabaseConfiguration.ContactDetailsCollectionName);
         }
 
-        public Task<ContactDetails> CreateContactInfoAsync(ContactDetails addContactDetails)
+        public async Task<ContactDetails> CreateContactDetailsAsync(ContactDetails addContactDetails)
         {
-            throw new NotImplementedException();
+            await _contactDetailsCollection.InsertOneAsync(addContactDetails);
+            return addContactDetails;
         }
 
-        public Task<bool> DeleteContactInfoAsync(string id)
+        public async Task<bool> DeleteContactDetailsAsync(string id)
         {
-            throw new NotImplementedException();
+            var result = await _contactDetailsCollection.DeleteOneAsync(x => x.Id == id);
+            return result.DeletedCount > 0;
         }
 
-        public Task<List<ContactDetails>> GetAllContactDetailsAsync()
+        public async Task<List<ContactDetails>> GetAllContactDetailsListAsync()
         {
-            throw new NotImplementedException();
+            return await _contactDetailsCollection.Find(c => true).ToListAsync();
         }
 
-        public Task<List<ContactDetails>> GetContactDetailsByContactIdAsync(string contactId)
+        public async Task<List<ContactDetails>> GetContactDetailsByContactIdAsync(string contactId)
         {
-            throw new NotImplementedException();
+            return await _contactDetailsCollection.Find(c => true && c.ContactId == contactId).ToListAsync();
         }
     }
 }

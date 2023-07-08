@@ -324,19 +324,6 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "TelephoneBook.Contact.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TelephoneBook.Contact.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TelephoneBook.Contact.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TelephoneBook.Contact.Application.dll": {}
-        }
-      },
       "TelephoneBook.Contact.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -920,11 +907,6 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "TelephoneBook.Contact.Application/1.0.0": {
-      "type": "project",
-      "path": "../TelephoneBook.Contact.Application/TelephoneBook.Contact.Application.csproj",
-      "msbuildProject": "../TelephoneBook.Contact.Application/TelephoneBook.Contact.Application.csproj"
-    },
     "TelephoneBook.Contact.Domain/1.0.0": {
       "type": "project",
       "path": "../TelephoneBook.Contact.Domain/TelephoneBook.Contact.Domain.csproj",
@@ -936,7 +918,6 @@
       "AutoMapper >= 12.0.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "MongoDB.Driver >= 2.20.0",
-      "TelephoneBook.Contact.Application >= 1.0.0",
       "TelephoneBook.Contact.Domain >= 1.0.0"
     ]
   },
@@ -967,9 +948,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Application\\TelephoneBook.Contact.Application.csproj": {
-              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Application\\TelephoneBook.Contact.Application.csproj"
-            },
             "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Domain\\TelephoneBook.Contact.Domain.csproj": {
               "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Domain\\TelephoneBook.Contact.Domain.csproj"
             }

@@ -52,3 +52,5 @@ C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\Teleph
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Application.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Domain.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\MediatR.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\MediatR.Contracts.dll

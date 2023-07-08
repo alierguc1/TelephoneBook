@@ -10,12 +10,12 @@ namespace TelephoneBook.Contact.Domain.Entities
 {
     public class Contacts
     {
-        public Contacts(string @contactName, string @contactLastName, string @contactCompany)
-        {
-            ContactName = @contactName;
-            ContactLastName = @contactLastName;
-            ContactCompany = @contactCompany;
-        }
+        //public Contacts(string @contactName, string @contactLastName, string @contactCompany)
+        //{
+        //    ContactName = @contactName;
+        //    ContactLastName = @contactLastName;
+        //    ContactCompany = @contactCompany;
+        //}
 
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

@@ -7,10 +7,9 @@ using TelephoneBook.Contact.Domain.Entities;
 
 namespace TelephoneBook.Contact.Infrastructure.Interfaces
 {
-    internal interface IContactsRepository
+    public interface IContactsRepository
     {
-        Task<bool> GetContactsHasDocumentForDummyDataAsync();
-        Task<List<Contacts>> GetAllContactsAsync();
+        Task<List<Contacts>> GetAllContactsListAsync();
         Task<Contacts> GetContactByIdAsync(string @contactId);
         Task<Contacts> CreateContactAsync(Contacts @addContact);
         Task<bool> DeleteContactAsync(string @id);

@@ -12,36 +12,35 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
 {
     public class ContactsRepository : IContactsRepository
     {
-        private readonly IMongoCollection<Contacts> _contactDetailsCollection;
+        private readonly IMongoCollection<Contacts> _contactCollection;
         public ContactsRepository(IMongoDatabaseConfiguration mongoDatabaseConfiguration)
         {
             var client = new MongoClient(mongoDatabaseConfiguration.ConnectionString);
             var db = client.GetDatabase(mongoDatabaseConfiguration.DatabaseName);
-            _contactDetailsCollection = db.GetCollection<Contacts>(mongoDatabaseConfiguration.ContactsCollectionName);
+            _contactCollection = db.GetCollection<Contacts>(mongoDatabaseConfiguration.ContactsCollectionName);
         }
-        public Task<Contacts> CreateContactAsync(Contacts addContact)
+        public async Task<Contacts> CreateContactAsync(Contacts addContact)
         {
-            throw new NotImplementedException();
+            await _contactCollection.InsertOneAsync(addContact);
+
+            return addContact;
         }
 
-        public Task<bool> DeleteContactAsync(string id)
+        public async Task<bool> DeleteContactAsync(string id)
         {
-            throw new NotImplementedException();
+            var result = await _contactCollection.DeleteOneAsync(x => x.Id == id);
+
+            return result.DeletedCount > 0;
         }
 
-        public Task<List<Contacts>> GetAllContactsAsync()
+        public async Task<List<Contacts>> GetAllContactsListAsync()
         {
-            throw new NotImplementedException();
+            return await _contactCollection.Find(c => true).ToListAsync();
         }
 
-        public Task<Contacts> GetContactByIdAsync(string contactId)
+        public async Task<Contacts> GetContactByIdAsync(string contactId)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> GetContactsHasDocumentForDummyDataAsync()
-        {
-            throw new NotImplementedException();
+            return await _contactCollection.Find(c => true && c.Id == contactId).FirstOrDefaultAsync();
         }
     }
 }
