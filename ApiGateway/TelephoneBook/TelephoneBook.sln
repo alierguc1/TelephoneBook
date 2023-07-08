@@ -5,6 +5,24 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Web.ApiGateway", "TelephoneBook.Web.ApiGateway\TelephoneBook.Web.ApiGateway.csproj", "{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{E18EFCE8-BDE2-417F-870D-47A93D028D39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlock", "BuildingBlock", "{8E5FF585-6A2D-4490-833D-D00D71713564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B7429923-DCC9-46AF-AC0D-4B1901F892D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{E6BD0A43-EA91-41A5-9E24-F47A605A4D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{BDE31C06-FA70-44BC-9387-142D4D3382B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.API", "Src\Contact\TelephoneBook.Contact.API\TelephoneBook.Contact.API.csproj", "{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Application", "Src\Contact\TelephoneBook.Contact.Application\TelephoneBook.Contact.Application.csproj", "{4B89E986-1C76-491D-8C39-5F8477D05E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Infrastructure", "Src\Contact\TelephoneBook.Contact.Infrastructure\TelephoneBook.Contact.Infrastructure.csproj", "{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Domain", "Src\Contact\TelephoneBook.Contact.Domain\TelephoneBook.Contact.Domain.csproj", "{71A23A3A-DD20-4BAF-9218-59276A1FF98C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +33,34 @@ Global
 		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B89E986-1C76-491D-8C39-5F8477D05E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B89E986-1C76-491D-8C39-5F8477D05E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B89E986-1C76-491D-8C39-5F8477D05E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B89E986-1C76-491D-8C39-5F8477D05E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A23A3A-DD20-4BAF-9218-59276A1FF98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A23A3A-DD20-4BAF-9218-59276A1FF98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A23A3A-DD20-4BAF-9218-59276A1FF98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A23A3A-DD20-4BAF-9218-59276A1FF98C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C} = {E18EFCE8-BDE2-417F-870D-47A93D028D39}
+		{E6BD0A43-EA91-41A5-9E24-F47A605A4D91} = {B7429923-DCC9-46AF-AC0D-4B1901F892D1}
+		{BDE31C06-FA70-44BC-9387-142D4D3382B3} = {B7429923-DCC9-46AF-AC0D-4B1901F892D1}
+		{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
+		{4B89E986-1C76-491D-8C39-5F8477D05E90} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
+		{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
+		{71A23A3A-DD20-4BAF-9218-59276A1FF98C} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E87398E5-C74B-4138-9CA2-E8277A4E3204}

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fHUh01U/2f2wMwH3pkZG5cV+9Y5+oxgBq1evJwwJjOG401qATqNSvOIv6/yv0jfm4FATlBHFgUkTo+FQYdJzew==",
+  "dgSpecHash": "txsM89IllTWvvW6k4K6IAL6Cnqyb/cSEKgbyoF/LuXwPNzbpRJzYR8/RkUuKYbW/B0iRpQgm01EWP5vygNlROw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.API\\TelephoneBook.Contact.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

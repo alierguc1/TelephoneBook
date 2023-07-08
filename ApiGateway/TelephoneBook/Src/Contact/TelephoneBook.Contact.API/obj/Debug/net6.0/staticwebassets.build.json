@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4dI8Vm3JGszbKHnm4jX+rhdcOQWxpkBldj8UcVSc9Yw=",
+  "Source": "TelephoneBook.Contact.API",
+  "BasePath": "_content/TelephoneBook.Contact.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

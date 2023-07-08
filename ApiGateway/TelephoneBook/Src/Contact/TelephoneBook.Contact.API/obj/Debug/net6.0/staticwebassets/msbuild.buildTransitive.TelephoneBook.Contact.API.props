@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TelephoneBook.Contact.API.props" />
+</Project>
