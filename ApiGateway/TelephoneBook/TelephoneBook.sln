@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Web.ApiGateway", "TelephoneBook.Web.ApiGateway\TelephoneBook.Web.ApiGateway.csproj", "{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E87398E5-C74B-4138-9CA2-E8277A4E3204}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HxWFOB6mULzNtngmDrF2E1EEoQ9B+XFDOA8Y9C7Yv+hGgSpKBbnlnjR5f2biUbIe94Ni5p0DQatS2STaivxgPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\TelephoneBook.Web.ApiGateway\\TelephoneBook.Web.ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
