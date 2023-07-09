@@ -17,7 +17,7 @@ namespace TelephoneBook.Contact.Application.Features.Contact.Command
         public class DeleteContactCommandHandler : IRequestHandler<DeleteContactCommand, bool>
         {
             private readonly IContactsRepository _contactsRepository;
-            public DeleteContactCommandHandler(IContactsRepository contactsRepository, IMapper mapper)
+            public DeleteContactCommandHandler(IContactsRepository contactsRepository)
             {
                 _contactsRepository = contactsRepository;
             }

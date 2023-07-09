@@ -54,6 +54,21 @@ namespace TelephoneBook.Contact.API.Controllers.v1
             }
         }
 
+        [HttpDelete("DeleteContactDetails/{contactId}")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> DeleteContactDetails(string contactId)
+        {
+            try
+            {
+                var returnedValue = await _mediator.Send(new DeleteContactDetailsCommand { contactId = contactId });
+                return ResponseDatas<Contacts>.Success((int)HttpStatusCode.OK, returnedValue);
+            }
+            catch (Exception ex)
+            {
+                return ResponseDatas<Contacts>.Fail("Iç Sunucu Hatası", (int)HttpStatusCode.BadRequest);
+            }
+        }
 
         [HttpGet("GetContactDetailsById/{contactId}")]
         [ProducesResponseType(typeof(ResponseDatas<List<ContactDetail>>), (int)HttpStatusCode.OK)]
@@ -69,8 +84,6 @@ namespace TelephoneBook.Contact.API.Controllers.v1
                 return ResponseDatas<Contacts>.Fail("Iç Sunucu Hatası", (int)HttpStatusCode.BadRequest);
             }
         }
-
-        
 
     }
 }

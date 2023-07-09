@@ -11,20 +11,20 @@ using TelephoneBook.Contact.Infrastructure.Interfaces;
 
 namespace TelephoneBook.Contact.Application.Features.ContactDetails.Command
 {
-    public class DeleteContactDetailsCommand : IRequest<ContactDetail>
+    public class DeleteContactDetailsCommand : IRequest<bool>
     {
         public string contactId { get; set; }
 
-        public class DeleteContactCommandHandler : IRequestHandler<DeleteContactCommand, bool>
+        public class DeleteContactDetailsCommandHandler : IRequestHandler<DeleteContactDetailsCommand, bool>
         {
-            private readonly IContactsRepository _contactsRepository;
-            public DeleteContactCommandHandler(IContactsRepository contactsRepository, IMapper mapper)
+            private readonly IContactsDetailsRepository _contactsDetailsRepository;
+            public DeleteContactDetailsCommandHandler(IContactsDetailsRepository contactsDetailsRepository, IMapper mapper)
             {
-                _contactsRepository = contactsRepository;
+                _contactsDetailsRepository = contactsDetailsRepository;
             }
-            public async Task<bool> Handle(DeleteContactCommand command, CancellationToken cancellationToken)
+            public async Task<bool> Handle(DeleteContactDetailsCommand command, CancellationToken cancellationToken)
             {
-                var deletingContactResult = _contactsRepository.DeleteContactAsync(command.contactId);
+                var deletingContactResult = _contactsDetailsRepository.DeleteContactDetailsAsync(command.contactId);
                 return deletingContactResult.Result;
             }
         }

@@ -38,3 +38,4 @@ C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\TelephoneBook.Web.
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\TelephoneBook.Web.ApiGateway\obj\Debug\net6.0\TelephoneBook.Web.ApiGateway.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\TelephoneBook.Web.ApiGateway\obj\Debug\net6.0\TelephoneBook.Web.ApiGateway.genruntimeconfig.cache
 C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\TelephoneBook.Web.ApiGateway\obj\Debug\net6.0\ref\TelephoneBook.Web.ApiGateway.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\TelephoneBook.Web.ApiGateway\bin\Debug\net6.0\ocelot.json
