@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using System.Net;
 using TelephoneBook.Contact.Application.Features.Contact.Command;
+using TelephoneBook.Contact.Application.Features.Contact.Query;
 
 namespace TelephoneBook.Contact.API.Controllers.v1
 {
@@ -26,6 +27,21 @@ namespace TelephoneBook.Contact.API.Controllers.v1
                 return BadRequest(ex.Message);
             }
            
+        }
+
+        [HttpGet("GetAllContactList")]
+        public async Task<IActionResult> GetAllContactList()
+        {
+            try
+            {
+                return Ok(await Mediator.Send(new GetAllContactListQuery()));
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
         }
     }
 }
