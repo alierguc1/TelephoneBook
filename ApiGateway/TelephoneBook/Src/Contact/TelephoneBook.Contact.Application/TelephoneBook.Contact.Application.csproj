@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\ContactDetails\Command\" />
     <Folder Include="Features\ContactDetails\Query\" />
   </ItemGroup>
 

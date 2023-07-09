@@ -9,17 +9,9 @@ using TelephoneBook.Contact.Domain.Enums;
 
 namespace TelephoneBook.Contact.Domain.Entities
 {
-    public class ContactDetails
+    public class ContactDetail
     {
-        public ContactDetails() { }
-
-        public ContactDetails(string @contactId, ContactDetailsType @contactDetailsType, string @value)
-        {
-            ContactId = @contactId;
-            ContactDetailsType = @contactDetailsType;
-            Value = @value;
-        }
-
+   
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }

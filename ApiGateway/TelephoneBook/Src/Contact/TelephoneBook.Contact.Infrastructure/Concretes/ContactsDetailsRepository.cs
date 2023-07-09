@@ -13,17 +13,17 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
 {
     public class ContactsDetailsRepository : IContactsDetailsRepository
     {
-        private readonly IMongoCollection<ContactDetails> _contactDetailsCollection;
+        private readonly IMongoCollection<ContactDetail> _contactDetailsCollection;
         private readonly IConfiguration _configuration;
         public ContactsDetailsRepository(IConfiguration configuration)
         {
             _configuration = configuration;
             var client = new MongoClient(_configuration["DatabaseSettings:ConnectionString"]);
             var db = client.GetDatabase(_configuration["DatabaseSettings:DatabaseName"]);
-            _contactDetailsCollection = db.GetCollection<ContactDetails>(_configuration["DatabaseSettings:ContactDetailsCollectionName"]);
+            _contactDetailsCollection = db.GetCollection<ContactDetail>(_configuration["DatabaseSettings:ContactDetailsCollectionName"]);
         }
 
-        public async Task<ContactDetails> CreateContactDetailsAsync(ContactDetails addContactDetails)
+        public async Task<ContactDetail> CreateContactDetailsAsync(ContactDetail addContactDetails)
         {
             await _contactDetailsCollection.InsertOneAsync(addContactDetails);
             return addContactDetails;
@@ -35,12 +35,12 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
             return result.DeletedCount > 0;
         }
 
-        public async Task<List<ContactDetails>> GetAllContactDetailsListAsync()
+        public async Task<List<ContactDetail>> GetAllContactDetailsListAsync()
         {
             return await _contactDetailsCollection.Find(c => true).ToListAsync();
         }
 
-        public async Task<List<ContactDetails>> GetContactDetailsByContactIdAsync(string contactId)
+        public async Task<List<ContactDetail>> GetContactDetailsByContactIdAsync(string contactId)
         {
             return await _contactDetailsCollection.Find(c => true && c.ContactId == contactId).ToListAsync();
         }
