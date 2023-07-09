@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JZIf5ykBzpOWU8jYAxXw/czu9DTq0zAU5ZcOlVg1sHGxyYdz0Ab91XxnouQYynh2Waw9SiLFQj9mp/NP9Ep5Kg==",
+  "dgSpecHash": "URrrAj30NCDqSaV4qMQ67KOTnNn5PHa0q5kve5jNC5vXGSo2B6NBPyhUq/3KOW9cWXiAmkqGBX0gN3UVqTe9wA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

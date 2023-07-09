@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "a7CmM+lLJy6oDVbvkbR/EmQOEtQAOo1bsR/BX9dA/gY1K9Li2PaUQT4vZS0p4NlGT8YEUPnxkMUrXNZN3K9TUw==",
+  "dgSpecHash": "+jxbq1LzplfmerL4BxZ0KAOpdsCWEtaIbI9IaJQGUE4o1wjSowMYYaJrCeFibSCFK55/7xAWB+oPOA31G+HiUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Cihan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
