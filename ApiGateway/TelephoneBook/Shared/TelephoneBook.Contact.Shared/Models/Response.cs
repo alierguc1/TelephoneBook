@@ -48,10 +48,14 @@ namespace TelephoneBook.Contact.Shared.Models
         {
             return new ResponseDatas<T>(data, statusCode, true).CreateResponse();
         }
-
         public static IActionResult Success(int statusCode)
         {
             return new ResponseDatas<T>(default(T), statusCode, true).CreateResponse();
+        }
+
+        public static IActionResult Success(int statusCode, bool isOk)
+        {
+            return new ResponseDatas<T>(default(T), statusCode, isOk).CreateResponse();
         }
 
         public static IActionResult Fail(List<string> errors, int statusCode)
