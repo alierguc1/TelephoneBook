@@ -12,6 +12,6 @@ namespace TelephoneBook.Contact.Infrastructure.Interfaces
         Task<ContactDetail> CreateContactDetailsAsync(ContactDetail @addContactDetails);
         Task<bool> DeleteContactDetailsAsync(string @id);
         Task<List<ContactDetail>> GetAllContactDetailsListAsync();
-        Task<List<ContactDetail>> GetContactDetailsByContactIdAsync(string @contactId);
+        Task<ContactDetail> GetContactDetailsByContactIdAsync(string @contactId);
     }
 }

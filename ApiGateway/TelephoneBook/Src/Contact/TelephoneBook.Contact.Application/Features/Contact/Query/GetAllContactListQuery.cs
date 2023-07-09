@@ -21,7 +21,7 @@ namespace TelephoneBook.Contact.Application.Features.Contact.Query
             {
                 _contactsRepository = contactsRepository;
             }
-            public async Task<IEnumerable<Contacts>> Handle(GetAllContactListQuery command, CancellationToken cancellationToken)
+            public async Task<IEnumerable<Contacts>> Handle(GetAllContactListQuery query, CancellationToken cancellationToken)
             {                     
                 var getAllContactList = await _contactsRepository.GetAllContactsListAsync();
                 return getAllContactList;

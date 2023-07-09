@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using TelephoneBook.Contact.Application.Features.Contact.Command;
+using TelephoneBook.Contact.Application.Features.Contact.Query;
 using TelephoneBook.Contact.Application.Features.ContactDetails.Command;
+using TelephoneBook.Contact.Application.Features.ContactDetails.Query;
 using TelephoneBook.Contact.Domain.Entities;
 using TelephoneBook.Contact.Shared.Models;
 
@@ -36,5 +38,39 @@ namespace TelephoneBook.Contact.API.Controllers.v1
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("GetAllContactDetailsList")]
+        [ProducesResponseType(typeof(ResponseDatas<List<ContactDetail>>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetAllContactDetailsList()
+        {
+            try
+            {
+                var result = await _mediator.Send(new GetAllContactDetailsListQuery());
+                return ResponseDatas<List<ContactDetail>>.Success(result.ToList(), (int)HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return ResponseDatas<Contacts>.Fail("Iç Sunucu Hatası", (int)HttpStatusCode.BadRequest);
+            }
+        }
+
+
+        [HttpGet("GetContactDetailsById/{contactId}")]
+        [ProducesResponseType(typeof(ResponseDatas<List<ContactDetail>>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetContactDetailsById(string contactId)
+        {
+            try
+            {
+                var result = await _mediator.Send(new GetContactDetailsByIdQuery { contactId = contactId });
+                return ResponseDatas<ContactDetail>.Success(result, (int)HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return ResponseDatas<Contacts>.Fail("Iç Sunucu Hatası", (int)HttpStatusCode.BadRequest);
+            }
+        }
+
+        
+
     }
 }

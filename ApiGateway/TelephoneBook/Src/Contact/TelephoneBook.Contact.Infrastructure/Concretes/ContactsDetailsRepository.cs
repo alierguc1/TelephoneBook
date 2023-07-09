@@ -40,9 +40,9 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
             return await _contactDetailsCollection.Find(c => true).ToListAsync();
         }
 
-        public async Task<List<ContactDetail>> GetContactDetailsByContactIdAsync(string contactId)
+        public async Task<ContactDetail> GetContactDetailsByContactIdAsync(string contactId)
         {
-            return await _contactDetailsCollection.Find(c => true && c.ContactId == contactId).ToListAsync();
+            return await _contactDetailsCollection.Find(c => true && c.ContactId == contactId).FirstOrDefaultAsync();
         }
     }
 }
