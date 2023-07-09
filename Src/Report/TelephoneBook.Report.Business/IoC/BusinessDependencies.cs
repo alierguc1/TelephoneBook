@@ -16,7 +16,7 @@ namespace TelephoneBook.Report.Business.IoC
         {
             services.AddScoped<IReportRepository, ReportRepository>();
             services.AddScoped<IReportDetailsRepository, ReportDetailsRepository>();
-            //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             return services;
         }
     }
