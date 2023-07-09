@@ -20,14 +20,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplicationDependencies();
 builder.Services.AddInfrastructureDependencies();
-/*
-builder.Services.Configure<MongoDatabaseConfiguration>(builder.Configuration.GetSection(nameof(MongoDatabaseConfiguration)));
-builder.Services.AddSingleton<IMongoDatabaseConfiguration>(sp =>
-{
-    return sp.GetRequiredService<IOptions<MongoDatabaseConfiguration>>().Value;
-});
 
-*/
 builder.Services.AddApiVersioning(opt =>
 {
     opt.DefaultApiVersion = new ApiVersion(1, 0);

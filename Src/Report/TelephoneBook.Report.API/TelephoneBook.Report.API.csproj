@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\TelephoneBook.Contact.Shared.csproj" />
     <ProjectReference Include="..\TelephoneBook.Report.Business\TelephoneBook.Report.Business.csproj" />
     <ProjectReference Include="..\TelephoneBook.Report.Entities\TelephoneBook.Report.Entities.csproj" />
   </ItemGroup>
