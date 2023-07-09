@@ -1,11 +1,12 @@
-﻿using MongoDB.Driver;
+﻿using Microsoft.Extensions.Configuration;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TelephoneBook.Contact.Domain.Entities;
-using TelephoneBook.Contact.Infrastructure.Configuration;
 using TelephoneBook.Contact.Infrastructure.Interfaces;
 
 namespace TelephoneBook.Contact.Infrastructure.Concretes
@@ -13,11 +14,13 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
     public class ContactsDetailsRepository : IContactsDetailsRepository
     {
         private readonly IMongoCollection<ContactDetails> _contactDetailsCollection;
-        public ContactsDetailsRepository(IMongoDatabaseConfiguration mongoDatabaseConfiguration)
+        private readonly IConfiguration _configuration;
+        public ContactsDetailsRepository(IConfiguration configuration)
         {
-            var client = new MongoClient(mongoDatabaseConfiguration.ConnectionString);
-            var db = client.GetDatabase(mongoDatabaseConfiguration.DatabaseName);
-            _contactDetailsCollection = db.GetCollection<ContactDetails>(mongoDatabaseConfiguration.ContactDetailsCollectionName);
+            _configuration = configuration;
+            var client = new MongoClient(_configuration["DatabaseSettings:ConnectionString"]);
+            var db = client.GetDatabase(_configuration["DatabaseSettings:DatabaseName"]);
+            _contactDetailsCollection = db.GetCollection<ContactDetails>(_configuration["DatabaseSettings:ContactDetailsCollectionName"]);
         }
 
         public async Task<ContactDetails> CreateContactDetailsAsync(ContactDetails addContactDetails)

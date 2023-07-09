@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Web.ApiGateway", "TelephoneBook.Web.ApiGateway\TelephoneBook.Web.ApiGateway.csproj", "{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Web.ApiGateway", "TelephoneBook.Web.ApiGateway\TelephoneBook.Web.ApiGateway.csproj", "{81FD00FC-8B16-43C6-BBC2-63C6D6A1DA7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{E18EFCE8-BDE2-417F-870D-47A93D028D39}"
 EndProject
@@ -15,19 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{E6BD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{BDE31C06-FA70-44BC-9387-142D4D3382B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.API", "Src\Contact\TelephoneBook.Contact.API\TelephoneBook.Contact.API.csproj", "{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.API", "Src\Contact\TelephoneBook.Contact.API\TelephoneBook.Contact.API.csproj", "{0C11AB0F-EF2C-482E-B2F8-EA2F87F0228A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Application", "Src\Contact\TelephoneBook.Contact.Application\TelephoneBook.Contact.Application.csproj", "{4B89E986-1C76-491D-8C39-5F8477D05E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Application", "Src\Contact\TelephoneBook.Contact.Application\TelephoneBook.Contact.Application.csproj", "{4B89E986-1C76-491D-8C39-5F8477D05E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Infrastructure", "Src\Contact\TelephoneBook.Contact.Infrastructure\TelephoneBook.Contact.Infrastructure.csproj", "{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Infrastructure", "Src\Contact\TelephoneBook.Contact.Infrastructure\TelephoneBook.Contact.Infrastructure.csproj", "{DF3E6B0D-F715-4C85-ABA2-7ABA282027E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Domain", "Src\Contact\TelephoneBook.Contact.Domain\TelephoneBook.Contact.Domain.csproj", "{71A23A3A-DD20-4BAF-9218-59276A1FF98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Domain", "Src\Contact\TelephoneBook.Contact.Domain\TelephoneBook.Contact.Domain.csproj", "{71A23A3A-DD20-4BAF-9218-59276A1FF98C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E1187050-BDC8-496C-AECC-06BC2C60B507}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{35A09AB9-6484-44DE-84D1-B6DFCC10AE74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.UnitTest", "src\Contact\Test\TelephoneBook.Contact.UnitTest\TelephoneBook.Contact.UnitTest.csproj", "{A40452FD-BB54-42BD-B440-B9580FE5A035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.UnitTest", "src\Contact\Test\TelephoneBook.Contact.UnitTest\TelephoneBook.Contact.UnitTest.csproj", "{A40452FD-BB54-42BD-B440-B9580FE5A035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C7063B82-BC29-4267-A343-6B612DEC1EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Contact.Shared", "Shared\TelephoneBook.Contact.Shared\TelephoneBook.Contact.Shared.csproj", "{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{A40452FD-BB54-42BD-B440-B9580FE5A035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40452FD-BB54-42BD-B440-B9580FE5A035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40452FD-BB54-42BD-B440-B9580FE5A035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +82,7 @@ Global
 		{E1187050-BDC8-496C-AECC-06BC2C60B507} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
 		{35A09AB9-6484-44DE-84D1-B6DFCC10AE74} = {BDE31C06-FA70-44BC-9387-142D4D3382B3}
 		{A40452FD-BB54-42BD-B440-B9580FE5A035} = {E1187050-BDC8-496C-AECC-06BC2C60B507}
+		{39CBE467-6F16-47DD-9C9F-1FC2287B4FA5} = {C7063B82-BC29-4267-A343-6B612DEC1EC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E87398E5-C74B-4138-9CA2-E8277A4E3204}

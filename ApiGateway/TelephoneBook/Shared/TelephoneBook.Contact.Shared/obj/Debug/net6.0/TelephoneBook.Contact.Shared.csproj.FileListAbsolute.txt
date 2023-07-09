@@ -1,0 +1,12 @@
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\bin\Debug\net6.0\TelephoneBook.Contact.Shared.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\bin\Debug\net6.0\TelephoneBook.Contact.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\bin\Debug\net6.0\TelephoneBook.Contact.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\refint\TelephoneBook.Contact.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\TelephoneBook.Contact.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\ApiGateway\TelephoneBook\Shared\TelephoneBook.Contact.Shared\obj\Debug\net6.0\ref\TelephoneBook.Contact.Shared.dll
