@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Af1g/mUKX7Ew5ZbNLTgc2vPi33VJBn9aWOegcYc0Y2eWYdB+LlAezXQjJXO5lVFzXlfIVwmC8sP7y5cbr1oOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
