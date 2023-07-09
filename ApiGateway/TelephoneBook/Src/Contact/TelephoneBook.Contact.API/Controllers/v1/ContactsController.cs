@@ -29,6 +29,32 @@ namespace TelephoneBook.Contact.API.Controllers.v1
            
         }
 
+        [HttpGet("GetContactById/{contactId}")]
+        public async Task<IActionResult> GetContactById(string contactId)
+        {
+            try
+            {
+                return Ok(await Mediator.Send(new GetContactByIdQuery { contactId = contactId }));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("DeleteContactById/{contactId}")]
+        public async Task<IActionResult> DeleteContactById(string contactId)
+        {
+            try
+            {
+                return Ok(await Mediator.Send(new GetContactByIdQuery { contactId = contactId }));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpGet("GetAllContactList")]
         public async Task<IActionResult> GetAllContactList()
         {
@@ -41,7 +67,6 @@ namespace TelephoneBook.Contact.API.Controllers.v1
             {
                 return BadRequest(ex.Message);
             }
-
         }
     }
 }
