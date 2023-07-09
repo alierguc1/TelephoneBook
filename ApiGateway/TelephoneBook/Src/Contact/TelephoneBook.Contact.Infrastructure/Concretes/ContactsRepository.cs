@@ -18,7 +18,6 @@ namespace TelephoneBook.Contact.Infrastructure.Concretes
         {
             _configuration = configuration;
             var coll = _configuration["DatabaseSettings:ContactCollectionName"];
-
             var client = new MongoClient(_configuration["DatabaseSettings:ConnectionString"]);
             var db = client.GetDatabase(_configuration["DatabaseSettings:DatabaseName"]);
             _contactCollection = db.GetCollection<Contacts>(_configuration["DatabaseSettings:ContactCollectionName"]);
