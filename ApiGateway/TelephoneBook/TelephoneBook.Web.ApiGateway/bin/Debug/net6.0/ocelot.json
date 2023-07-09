@@ -8,7 +8,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -21,7 +21,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -34,7 +34,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -47,7 +47,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -61,7 +61,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -74,7 +74,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -87,7 +87,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
@@ -100,7 +100,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "telephonebook.contact.api",
+          "Host": "localhost",
           "Port": 5067
         }
       ],
