@@ -3260,19 +3260,6 @@
           "bin/placeholder/EventBus.RabbitMQ.dll": {}
         }
       },
-      "TelephoneBook.Contact.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc": "2.2.0"
-        },
-        "compile": {
-          "bin/placeholder/TelephoneBook.Contact.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TelephoneBook.Contact.Shared.dll": {}
-        }
-      },
       "TelephoneBook.Report.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -9039,11 +9026,6 @@
       "path": "../../../BuildingBlock/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
       "msbuildProject": "../../../BuildingBlock/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
     },
-    "TelephoneBook.Contact.Shared/1.0.0": {
-      "type": "project",
-      "path": "../../../ApiGateway/TelephoneBook/Shared/TelephoneBook.Contact.Shared/TelephoneBook.Contact.Shared.csproj",
-      "msbuildProject": "../../../ApiGateway/TelephoneBook/Shared/TelephoneBook.Contact.Shared/TelephoneBook.Contact.Shared.csproj"
-    },
     "TelephoneBook.Report.Business/1.0.0": {
       "type": "project",
       "path": "../TelephoneBook.Report.Business/TelephoneBook.Report.Business.csproj",
@@ -9067,7 +9049,6 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.1.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "TelephoneBook.Contact.Shared >= 1.0.0",
       "TelephoneBook.Report.Business >= 1.0.0",
       "TelephoneBook.Report.Entities >= 1.0.0",
       "TelephoneBook.Shared >= 1.0.0"
@@ -9101,9 +9082,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj": {
-              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj"
-            },
             "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
               "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
             },

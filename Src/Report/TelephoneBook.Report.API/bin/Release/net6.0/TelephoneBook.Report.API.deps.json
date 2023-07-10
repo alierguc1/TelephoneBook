@@ -13,7 +13,6 @@
           "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.1.0",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "TelephoneBook.Contact.Shared": "1.0.0",
           "TelephoneBook.Report.Business": "1.0.0",
           "TelephoneBook.Report.Entities": "1.0.0",
           "TelephoneBook.Shared": "1.0.0"

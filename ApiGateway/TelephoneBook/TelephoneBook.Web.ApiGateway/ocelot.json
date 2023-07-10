@@ -107,6 +107,46 @@
       "UpstreamPathTemplate": "/ContactDetails/GetContactDetailsById/{contactId}",
       "UpstreamHttpMethod": [ "GET" ],
       "UpstreamScheme": "http"
+    },
+    /* ----------------------------*/
+    {
+      "DownstreamPathTemplate": "/api/v1/Reports/GetAllReports",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5064
+        }
+      ],
+      "UpstreamPathTemplate": "/Reports/GetAllReports",
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Reports/GetReportByIdAsync/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5064
+        }
+      ],
+      "UpstreamPathTemplate": "/Reports/GetReportByIdAsync/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Reports/CreateReport",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5064
+        }
+      ],
+      "UpstreamPathTemplate": "/Reports/CreateReport",
+      "UpstreamHttpMethod": [ "POST" ],
+      "UpstreamScheme": "http"
     }
   ],
   "GlobalConfiguration": {
