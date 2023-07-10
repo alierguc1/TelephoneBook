@@ -7,7 +7,7 @@ using TelephoneBook.Contact.Application.Features.Contact.Query;
 using TelephoneBook.Contact.Application.Features.ContactDetails.Command;
 using TelephoneBook.Contact.Application.Features.ContactDetails.Query;
 using TelephoneBook.Contact.Domain.Entities;
-using TelephoneBook.Contact.Shared.Models;
+using static TelephoneBook.Shared.Models.Response;
 
 namespace TelephoneBook.Contact.API.Controllers.v1
 {

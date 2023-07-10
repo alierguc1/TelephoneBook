@@ -65,5 +65,14 @@ C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Deb
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\TelephoneBook.Contact.Shared.dll
-C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\TelephoneBook.Contact.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.Base.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.Base.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\TelephoneBook.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\TelephoneBook.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\Polly.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.Factory.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.RabbitMQ.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.Factory.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.API\bin\Debug\net6.0\EventBus.RabbitMQ.pdb

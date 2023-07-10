@@ -8,7 +8,7 @@ using TelephoneBook.Contact.Application.Features.Contact.Command;
 using TelephoneBook.Contact.Application.Features.Contact.Query;
 using TelephoneBook.Contact.Domain.Entities;
 using TelephoneBook.Contact.Domain.ValidatableObjectModels;
-using TelephoneBook.Contact.Shared.Models;
+using static TelephoneBook.Shared.Models.Response;
 
 namespace TelephoneBook.Contact.API.Controllers.v1
 {

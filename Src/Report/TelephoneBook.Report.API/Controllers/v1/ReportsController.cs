@@ -3,11 +3,12 @@ using EventBus.Base.Abstraction;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using TelephoneBook.Contact.Shared.Models;
 using TelephoneBook.Report.API.MessageBrokerIntegrationEvents.Events;
 using TelephoneBook.Report.Business.Interfaces;
 using TelephoneBook.Report.Entities.Models;
 using TelephoneBook.Report.Entities.ViewModels;
+using TelephoneBook.Shared.Models;
+using static TelephoneBook.Shared.Models.Response;
 
 namespace TelephoneBook.Report.API.Controllers.v1
 {

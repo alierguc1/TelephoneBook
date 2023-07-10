@@ -4,6 +4,416 @@
     "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\Test\\TelephoneBook.Report.UnitTest\\TelephoneBook.Report.UnitTest.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj",
+        "projectName": "TelephoneBook.Contact.Shared",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
+        "projectName": "EventBus.Base",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj",
+        "projectName": "EventBus.Factory",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
+        "projectName": "EventBus.RabbitMQ",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.RabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj",
+        "projectName": "TelephoneBook.Shared",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj",
+        "projectName": "TelephoneBook.Report.API",
+        "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj",
+        "packagesPath": "C:\\Users\\Cihan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\ApiGateway\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Entities\\TelephoneBook.Report.Entities.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Entities\\TelephoneBook.Report.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,6 +580,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
+              },
+              "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj": {
+                "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.API\\TelephoneBook.Report.API.csproj"
+              },
               "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj": {
                 "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj"
               }

@@ -138,8 +138,6 @@ C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\D
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Application.dll
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Domain.dll
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.dll
-C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Shared.dll
-C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Shared.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Application.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Infrastructure.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Contact.Domain.pdb
@@ -164,3 +162,5 @@ C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\obj\D
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\obj\Debug\net6.0\TelephoneBook.Contact.API.pdb
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\obj\Debug\net6.0\TelephoneBook.Contact.API.genruntimeconfig.cache
 C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\obj\Debug\net6.0\ref\TelephoneBook.Contact.API.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.API\bin\Debug\net6.0\TelephoneBook.Shared.pdb

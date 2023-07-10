@@ -3370,17 +3370,17 @@
           "bin/placeholder/TelephoneBook.Contact.Infrastructure.dll": {}
         }
       },
-      "TelephoneBook.Contact.Shared/1.0.0": {
+      "TelephoneBook.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0"
         },
         "compile": {
-          "bin/placeholder/TelephoneBook.Contact.Shared.dll": {}
+          "bin/placeholder/TelephoneBook.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TelephoneBook.Contact.Shared.dll": {}
+          "bin/placeholder/TelephoneBook.Shared.dll": {}
         }
       }
     }
@@ -9219,10 +9219,10 @@
       "path": "../TelephoneBook.Contact.Infrastructure/TelephoneBook.Contact.Infrastructure.csproj",
       "msbuildProject": "../TelephoneBook.Contact.Infrastructure/TelephoneBook.Contact.Infrastructure.csproj"
     },
-    "TelephoneBook.Contact.Shared/1.0.0": {
+    "TelephoneBook.Shared/1.0.0": {
       "type": "project",
-      "path": "../../../Shared/TelephoneBook.Contact.Shared/TelephoneBook.Contact.Shared.csproj",
-      "msbuildProject": "../../../Shared/TelephoneBook.Contact.Shared/TelephoneBook.Contact.Shared.csproj"
+      "path": "../../../Shared/TelephoneBook.Shared/TelephoneBook.Shared.csproj",
+      "msbuildProject": "../../../Shared/TelephoneBook.Shared/TelephoneBook.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9233,7 +9233,7 @@
       "System.Configuration.ConfigurationManager >= 7.0.0",
       "TelephoneBook.Contact.Application >= 1.0.0",
       "TelephoneBook.Contact.Infrastructure >= 1.0.0",
-      "TelephoneBook.Contact.Shared >= 1.0.0"
+      "TelephoneBook.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9264,8 +9264,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj": {
-              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj"
+            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj": {
+              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj"
             },
             "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Application\\TelephoneBook.Contact.Application.csproj": {
               "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Application\\TelephoneBook.Contact.Application.csproj"

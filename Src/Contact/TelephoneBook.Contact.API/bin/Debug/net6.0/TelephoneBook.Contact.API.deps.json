@@ -14,7 +14,7 @@
           "System.Configuration.ConfigurationManager": "7.0.0",
           "TelephoneBook.Contact.Application": "1.0.0",
           "TelephoneBook.Contact.Infrastructure": "1.0.0",
-          "TelephoneBook.Contact.Shared": "1.0.0"
+          "TelephoneBook.Shared": "1.0.0"
         },
         "runtime": {
           "TelephoneBook.Contact.API.dll": {}
@@ -1719,12 +1719,12 @@
           "TelephoneBook.Contact.Infrastructure.dll": {}
         }
       },
-      "TelephoneBook.Contact.Shared/1.0.0": {
+      "TelephoneBook.Shared/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0"
         },
         "runtime": {
-          "TelephoneBook.Contact.Shared.dll": {}
+          "TelephoneBook.Shared.dll": {}
         }
       }
     }
@@ -3073,7 +3073,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "TelephoneBook.Contact.Shared/1.0.0": {
+    "TelephoneBook.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

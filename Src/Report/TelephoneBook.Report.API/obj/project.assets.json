@@ -1493,6 +1493,36 @@
           }
         }
       },
+      "Polly/7.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -2183,6 +2213,15 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Net.Http/4.3.0": {
@@ -2949,6 +2988,22 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3176,6 +3231,35 @@
           "bin/placeholder/EventBus.Base.dll": {}
         }
       },
+      "EventBus.Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EventBus.Base": "1.0.0",
+          "EventBus.RabbitMQ": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EventBus.Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.Factory.dll": {}
+        }
+      },
+      "EventBus.RabbitMQ/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EventBus.Base": "1.0.0",
+          "Polly": "7.2.4",
+          "RabbitMQ.Client": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/EventBus.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.RabbitMQ.dll": {}
+        }
+      },
       "TelephoneBook.Contact.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3218,6 +3302,19 @@
         },
         "runtime": {
           "bin/placeholder/TelephoneBook.Report.Entities.dll": {}
+        }
+      },
+      "TelephoneBook.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/TelephoneBook.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TelephoneBook.Shared.dll": {}
         }
       }
     }
@@ -4666,6 +4763,47 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Polly/7.2.4": {
+      "sha512": "bw00Ck5sh6ekduDE3mnCo1ohzuad946uslCDEENu3091+6UKnBuKLo4e+yaNcCzXxOZCXWY2gV4a35+K1d4LDA==",
+      "type": "package",
+      "path": "polly/7.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "package-icon.png",
+        "polly.7.2.4.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.5.0": {
+      "sha512": "9hY5HiWPtCla1/l0WmXmLnqoX7iKE3neBQUWnetIJrRpOvTbO//XQfQDh++xgHCshL40Kv/6bR0HDkmJz46twg==",
+      "type": "package",
+      "path": "rabbitmq.client/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.5.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -6337,6 +6475,29 @@
         "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
         "system.linq.expressions.4.3.0.nupkg.sha512",
         "system.linq.expressions.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -8282,6 +8443,35 @@
         "system.threading.nuspec"
       ]
     },
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "type": "package",
+      "path": "system.threading.channels/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.7.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -8839,6 +9029,16 @@
       "path": "../../../BuildingBlock/EventBus/EventBus.Base/EventBus.Base.csproj",
       "msbuildProject": "../../../BuildingBlock/EventBus/EventBus.Base/EventBus.Base.csproj"
     },
+    "EventBus.Factory/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlock/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+      "msbuildProject": "../../../BuildingBlock/EventBus/EventBus.Factory/EventBus.Factory.csproj"
+    },
+    "EventBus.RabbitMQ/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlock/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+      "msbuildProject": "../../../BuildingBlock/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
+    },
     "TelephoneBook.Contact.Shared/1.0.0": {
       "type": "project",
       "path": "../../../ApiGateway/TelephoneBook/Shared/TelephoneBook.Contact.Shared/TelephoneBook.Contact.Shared.csproj",
@@ -8853,17 +9053,24 @@
       "type": "project",
       "path": "../TelephoneBook.Report.Entities/TelephoneBook.Report.Entities.csproj",
       "msbuildProject": "../TelephoneBook.Report.Entities/TelephoneBook.Report.Entities.csproj"
+    },
+    "TelephoneBook.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/TelephoneBook.Shared/TelephoneBook.Shared.csproj",
+      "msbuildProject": "../../../Shared/TelephoneBook.Shared/TelephoneBook.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EventBus.Base >= 1.0.0",
+      "EventBus.Factory >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.1.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "TelephoneBook.Contact.Shared >= 1.0.0",
       "TelephoneBook.Report.Business >= 1.0.0",
-      "TelephoneBook.Report.Entities >= 1.0.0"
+      "TelephoneBook.Report.Entities >= 1.0.0",
+      "TelephoneBook.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8900,8 +9107,11 @@
             "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj": {
               "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Base\\EventBus.Base.csproj"
             },
-            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj": {
-              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Contact.Shared\\TelephoneBook.Contact.Shared.csproj"
+            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj": {
+              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\BuildingBlock\\EventBus\\EventBus.Factory\\EventBus.Factory.csproj"
+            },
+            "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj": {
+              "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Shared\\TelephoneBook.Shared\\TelephoneBook.Shared.csproj"
             },
             "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj": {
               "projectPath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Report\\TelephoneBook.Report.Business\\TelephoneBook.Report.Business.csproj"
