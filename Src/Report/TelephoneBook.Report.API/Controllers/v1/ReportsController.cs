@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
+using EventBus.Base.Abstraction;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using TelephoneBook.Contact.Shared.Models;
+using TelephoneBook.Report.API.MessageBrokerIntegrationEvents.Events;
 using TelephoneBook.Report.Business.Interfaces;
 using TelephoneBook.Report.Entities.Models;
 using TelephoneBook.Report.Entities.ViewModels;
@@ -16,9 +18,15 @@ namespace TelephoneBook.Report.API.Controllers.v1
     {
         private readonly IReportRepository _reportRepository;
         private readonly IReportDetailsRepository _reportDetailsRepository;
+        private readonly IEventBus _eventBus;
         private readonly IMapper _mapper;
-        public ReportsController(IReportRepository reportRepository, IMapper mapper, IReportDetailsRepository reportDetailsRepository)
+        public ReportsController(
+            IEventBus eventBus,
+            IReportRepository reportRepository,
+            IMapper mapper,
+            IReportDetailsRepository reportDetailsRepository)
         {
+            _eventBus = eventBus;
             _mapper = mapper;
             _reportRepository = reportRepository;
             _reportDetailsRepository=reportDetailsRepository;
@@ -48,6 +56,9 @@ namespace TelephoneBook.Report.API.Controllers.v1
             var newReport = await _reportRepository.CreateReportAsync();
 
             if (newReport == null) return BadRequest();
+
+            var reportStartedEventModel = new ReportStartingEvent(newReport.Id);
+            _eventBus.Publish(reportStartedEventModel);
 
             var result = new ResultId<string> { Id = newReport.Id };
             return ResponseDatas<ResultId<string>>.Success(result, (int)HttpStatusCode.Created);

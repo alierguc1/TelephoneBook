@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "A0QBz4nMtibh8CEF7/bFPNTYujw1n1fqkinvqwRYFAxJfMPHPOktT9dIaMp9o8MFqTfOxhryV1Nl7a0LJlfrVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Domain\\TelephoneBook.Contact.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cihan\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -10,6 +10,14 @@ namespace TelephoneBook.Report.Entities.Models
 {
     public class ReportDetails
     {
+        public ReportDetails(string reportId, string location, int contactCount, int phoneNumberCount)
+        {
+            ReportId = reportId;
+            Location = location;
+            ContactCount = contactCount;
+            PhoneNumberCount = phoneNumberCount;
+        }
+
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }

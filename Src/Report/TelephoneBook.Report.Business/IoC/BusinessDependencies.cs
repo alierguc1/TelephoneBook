@@ -14,8 +14,8 @@ namespace TelephoneBook.Report.Business.IoC
     {
         public static IServiceCollection AddBusinessDependencies(this IServiceCollection services)
         {
-            services.AddScoped<IReportRepository, ReportRepository>();
-            services.AddScoped<IReportDetailsRepository, ReportDetailsRepository>();
+            services.AddTransient<IReportRepository, ReportRepository>();
+            services.AddTransient<IReportDetailsRepository, ReportDetailsRepository>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             return services;
         }
