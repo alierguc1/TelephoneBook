@@ -1,0 +1,12 @@
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\bin\Release\net6.0\TelephoneBook.Contact.Domain.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\bin\Release\net6.0\TelephoneBook.Contact.Domain.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\bin\Release\net6.0\TelephoneBook.Contact.Domain.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\refint\TelephoneBook.Contact.Domain.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\TelephoneBook.Contact.Domain.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Contact\TelephoneBook.Contact.Domain\obj\Release\net6.0\ref\TelephoneBook.Contact.Domain.dll

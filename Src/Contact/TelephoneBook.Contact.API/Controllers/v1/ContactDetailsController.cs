@@ -1,12 +1,11 @@
-﻿using MediatR;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using TelephoneBook.Contact.Application.Features.Contact.Command;
-using TelephoneBook.Contact.Application.Features.Contact.Query;
-using TelephoneBook.Contact.Application.Features.ContactDetails.Command;
-using TelephoneBook.Contact.Application.Features.ContactDetails.Query;
 using TelephoneBook.Contact.Domain.Entities;
+using TelephoneBook.Contact.Domain.ValidatableObjectModels;
+using TelephoneBook.Contact.Infrastructure.Interfaces;
+using TelephoneBook.Shared.Models;
 using static TelephoneBook.Shared.Models.Response;
 
 namespace TelephoneBook.Contact.API.Controllers.v1
@@ -16,22 +15,30 @@ namespace TelephoneBook.Contact.API.Controllers.v1
     [ApiVersion("1.0")]
     public class ContactDetailsController : ControllerBase
     {
-        private readonly IMediator _mediator;
-        public ContactDetailsController(IMediator mediator)
+        private readonly IContactsDetailsRepository _contactsDetailsRepository;
+        private readonly IMapper _mapper;
+        public ContactDetailsController(IContactsDetailsRepository contactsDetailsRepository, IMapper mapper)
         {
-            _mediator = mediator;
+            _contactsDetailsRepository = contactsDetailsRepository;
+            _mapper = mapper;
         }
 
 
         [HttpPost("CreateContactDetails")]
         [ProducesResponseType(typeof(ResponseDatas<ContactDetail>), (int)HttpStatusCode.OK)]
         [ProducesResponseType(typeof(ResponseDatas<string>), (int)HttpStatusCode.NotFound)]
-        public async Task<IActionResult> CreateContactDetails(CreateContactDetailsCommand createContactCommand)
+        public async Task<IActionResult> CreateContactDetails([FromBody] ContactDetailsAddVO contactDetailsVO)
         {
             try
             {
-                var result = await _mediator.Send(createContactCommand);
-                return ResponseDatas<ContactDetail>.Success(result, (int)HttpStatusCode.OK);
+                var newContactInfo = _mapper.Map<ContactDetail>(contactDetailsVO);
+
+                var _contactInfo = await _contactsDetailsRepository.CreateContactDetailsAsync(newContactInfo);
+
+                if (_contactInfo == null) return BadRequest();
+
+                var result = new ResultId<string> { Id = _contactInfo.Id };
+                return ResponseDatas<ResultId<string>>.Success(result, (int)HttpStatusCode.Created);
             }
             catch (Exception ex)
             {
@@ -45,8 +52,15 @@ namespace TelephoneBook.Contact.API.Controllers.v1
         {
             try
             {
-                var result = await _mediator.Send(new GetAllContactDetailsListQuery());
-                return ResponseDatas<List<ContactDetail>>.Success(result.ToList(), (int)HttpStatusCode.OK);
+                var list = await _contactsDetailsRepository.GetAllContactDetailsListAsync();
+
+                IList<ContactDetailsVO> infos = null;
+                if (list != null && list.Any())
+                {
+                    infos = _mapper.Map<IList<ContactDetailsVO>>(list);
+                }
+
+                return ResponseDatas<IList<ContactDetailsVO>>.Success(infos, (int)HttpStatusCode.OK);
             }
             catch (Exception ex)
             {
@@ -61,8 +75,8 @@ namespace TelephoneBook.Contact.API.Controllers.v1
         {
             try
             {
-                var returnedValue = await _mediator.Send(new DeleteContactDetailsCommand { contactId = contactId });
-                return ResponseDatas<Contacts>.Success((int)HttpStatusCode.OK, returnedValue);
+                var result = await _contactsDetailsRepository.DeleteContactDetailsAsync(contactId);
+                return result ? Ok() : BadRequest();
             }
             catch (Exception ex)
             {
@@ -76,7 +90,7 @@ namespace TelephoneBook.Contact.API.Controllers.v1
         {
             try
             {
-                var result = await _mediator.Send(new GetContactDetailsByIdQuery { contactId = contactId });
+                var result = await _contactsDetailsRepository.GetContactDetailsByContactIdAsync(contactId);
                 return ResponseDatas<ContactDetail>.Success(result, (int)HttpStatusCode.OK);
             }
             catch (Exception ex)

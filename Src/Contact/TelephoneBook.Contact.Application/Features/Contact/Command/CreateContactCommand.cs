@@ -20,11 +20,9 @@ namespace TelephoneBook.Contact.Application.Features.Contact.Command
         public class CreateContactCommandHandler : IRequestHandler<CreateContactCommand, Contacts>
         {
             private readonly IContactsRepository _contactsRepository;
-            private readonly IMapper _mapper;
-            public CreateContactCommandHandler(IContactsRepository contactsRepository, IMapper mapper)
+            public CreateContactCommandHandler(IContactsRepository contactsRepository)
             {
                 _contactsRepository = contactsRepository;
-                _mapper = mapper;
             }
             public async Task<Contacts> Handle(CreateContactCommand command, CancellationToken cancellationToken)
             {
@@ -34,9 +32,9 @@ namespace TelephoneBook.Contact.Application.Features.Contact.Command
                     ContactLastName = command.ContactLastName,
                     ContactCompany = command.ContactCompany
                 };
-                var mappingContact = _mapper.Map<Contacts>(contacts);
-                var creatingContacts = _contactsRepository.CreateContactAsync(mappingContact);
-                return mappingContact;
+            
+                var creatingContacts = _contactsRepository.CreateContactAsync(contacts);
+                return contacts;
             }
         }
     }

@@ -1,0 +1,12 @@
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\bin\Release\net6.0\TelephoneBook.Report.Entities.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\bin\Release\net6.0\TelephoneBook.Report.Entities.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\bin\Release\net6.0\TelephoneBook.Report.Entities.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\refint\TelephoneBook.Report.Entities.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\TelephoneBook.Report.Entities.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Entities\obj\Release\net6.0\ref\TelephoneBook.Report.Entities.dll

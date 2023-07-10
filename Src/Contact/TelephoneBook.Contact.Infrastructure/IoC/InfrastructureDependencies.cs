@@ -18,10 +18,10 @@ namespace TelephoneBook.Contact.Infrastructure.IoC
     {
         public static IServiceCollection AddInfrastructureDependencies(this IServiceCollection services)
         {
-         
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IContactsDetailsRepository, ContactsDetailsRepository>();
             services.AddScoped<IContactsRepository, ContactsRepository>();
-         
+           
             return services;
         }
     }

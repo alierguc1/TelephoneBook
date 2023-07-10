@@ -39,13 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.RabbitMQ", "..\..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.API", "..\..\Src\Contact\TelephoneBook.Contact.API\TelephoneBook.Contact.API.csproj", "{3D9D05B6-9C07-47B9-AD5F-2C1571A0A0D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Application", "..\..\Src\Contact\TelephoneBook.Contact.Application\TelephoneBook.Contact.Application.csproj", "{DFCF1430-C1A5-466B-A8E0-A9B2168DED45}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Domain", "..\..\Src\Contact\TelephoneBook.Contact.Domain\TelephoneBook.Contact.Domain.csproj", "{3A29334D-7D38-4F2F-85CC-F58F8D84A146}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.Infrastructure", "..\..\Src\Contact\TelephoneBook.Contact.Infrastructure\TelephoneBook.Contact.Infrastructure.csproj", "{4F3DDF87-D4CE-4040-B6F4-90C049ED9E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBook.Shared", "..\..\Shared\TelephoneBook.Shared\TelephoneBook.Shared.csproj", "{8FADB69A-9869-4308-885C-FCE16AD1FE23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Shared", "..\..\Shared\TelephoneBook.Shared\TelephoneBook.Shared.csproj", "{8FADB69A-9869-4308-885C-FCE16AD1FE23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBook.Contact.UnitTest", "..\..\Src\Contact\Test\TelephoneBook.Contact.UnitTest\TelephoneBook.Contact.UnitTest.csproj", "{DE07D9A3-D0A2-48C0-8FD1-4698E716D006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,10 +89,6 @@ Global
 		{3D9D05B6-9C07-47B9-AD5F-2C1571A0A0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D9D05B6-9C07-47B9-AD5F-2C1571A0A0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D9D05B6-9C07-47B9-AD5F-2C1571A0A0D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DFCF1430-C1A5-466B-A8E0-A9B2168DED45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFCF1430-C1A5-466B-A8E0-A9B2168DED45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFCF1430-C1A5-466B-A8E0-A9B2168DED45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFCF1430-C1A5-466B-A8E0-A9B2168DED45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A29334D-7D38-4F2F-85CC-F58F8D84A146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A29334D-7D38-4F2F-85CC-F58F8D84A146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A29334D-7D38-4F2F-85CC-F58F8D84A146}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,6 +101,10 @@ Global
 		{8FADB69A-9869-4308-885C-FCE16AD1FE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FADB69A-9869-4308-885C-FCE16AD1FE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FADB69A-9869-4308-885C-FCE16AD1FE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE07D9A3-D0A2-48C0-8FD1-4698E716D006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE07D9A3-D0A2-48C0-8FD1-4698E716D006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE07D9A3-D0A2-48C0-8FD1-4698E716D006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE07D9A3-D0A2-48C0-8FD1-4698E716D006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,10 +124,10 @@ Global
 		{746EBD9E-E97B-412A-94CD-D6E3243B11F9} = {FADB431C-1584-4BC0-A791-650F38114CC9}
 		{E82C26DD-05FB-4155-A53A-52242E89D113} = {FADB431C-1584-4BC0-A791-650F38114CC9}
 		{3D9D05B6-9C07-47B9-AD5F-2C1571A0A0D2} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
-		{DFCF1430-C1A5-466B-A8E0-A9B2168DED45} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
 		{3A29334D-7D38-4F2F-85CC-F58F8D84A146} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
 		{4F3DDF87-D4CE-4040-B6F4-90C049ED9E25} = {E6BD0A43-EA91-41A5-9E24-F47A605A4D91}
 		{8FADB69A-9869-4308-885C-FCE16AD1FE23} = {C7063B82-BC29-4267-A343-6B612DEC1EC0}
+		{DE07D9A3-D0A2-48C0-8FD1-4698E716D006} = {E1187050-BDC8-496C-AECC-06BC2C60B507}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E87398E5-C74B-4138-9CA2-E8277A4E3204}

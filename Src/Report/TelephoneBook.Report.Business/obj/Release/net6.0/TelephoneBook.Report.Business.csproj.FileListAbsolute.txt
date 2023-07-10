@@ -1,0 +1,15 @@
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\bin\Release\net6.0\TelephoneBook.Report.Business.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\bin\Release\net6.0\TelephoneBook.Report.Business.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\bin\Release\net6.0\TelephoneBook.Report.Business.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\bin\Release\net6.0\TelephoneBook.Report.Entities.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\bin\Release\net6.0\TelephoneBook.Report.Entities.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.csproj.CopyComplete
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\refint\TelephoneBook.Report.Business.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\TelephoneBook.Report.Business.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Src\Report\TelephoneBook.Report.Business\obj\Release\net6.0\ref\TelephoneBook.Report.Business.dll

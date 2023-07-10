@@ -1,0 +1,12 @@
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\bin\Release\net6.0\EventBus.Base.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\bin\Release\net6.0\EventBus.Base.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\bin\Release\net6.0\EventBus.Base.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\refint\EventBus.Base.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\EventBus.Base.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.Base\obj\Release\net6.0\ref\EventBus.Base.dll

@@ -1,0 +1,15 @@
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\bin\Release\net6.0\EventBus.RabbitMQ.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\bin\Release\net6.0\EventBus.RabbitMQ.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\bin\Release\net6.0\EventBus.RabbitMQ.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\bin\Release\net6.0\EventBus.Base.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\bin\Release\net6.0\EventBus.Base.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.csproj.CopyComplete
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\refint\EventBus.RabbitMQ.dll
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\EventBus.RabbitMQ.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\BuildingBlock\EventBus\EventBus.RabbitMQ\obj\Release\net6.0\ref\EventBus.RabbitMQ.dll

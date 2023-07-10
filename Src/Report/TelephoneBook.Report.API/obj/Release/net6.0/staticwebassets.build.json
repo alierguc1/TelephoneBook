@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7qrxh1+cHY+9kXVEG1XPgNaTmn8KVvkOAroWAdtraj8=",
+  "Source": "TelephoneBook.Report.API",
+  "BasePath": "_content/TelephoneBook.Report.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

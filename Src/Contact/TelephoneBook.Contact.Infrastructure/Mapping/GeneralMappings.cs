@@ -16,7 +16,9 @@ namespace TelephoneBook.Contact.Infrastructure.Mapping
             CreateMap<Contacts, ContactsVO>().ReverseMap();
             CreateMap<Contacts, ContactsIndexVO>().ReverseMap();
             CreateMap<Contacts, ContactsEditVO>().ReverseMap();
+            CreateMap<Contacts, ContactAddVO>().ReverseMap();
             CreateMap<ContactDetail, ContactDetailsVO>().ReverseMap();
+            CreateMap<ContactDetail, ContactDetailsAddVO>().ReverseMap();
         }
     }
 }

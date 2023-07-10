@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x4BmuEaaFDT0fXfn0za0c/w/shD4trSxCkQr26bWq8+/4ZRWBgakpXMH324n1Dgl0ze+nqi/3kdWkbA8ndikLg==",
+  "dgSpecHash": "5WgHpErf5L/LCybzDOxqK99O5am8O0OenXFo2zUyekOaImMGiQXDxso27g0ghazAdxlbbZAIZbYEDruUd+0JWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cihan\\Desktop\\TelephoneBook\\Src\\Contact\\TelephoneBook.Contact.Infrastructure\\TelephoneBook.Contact.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cihan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Cihan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Cihan\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

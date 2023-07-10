@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Reflection;
-using TelephoneBook.Contact.Application.IoC;
 using TelephoneBook.Contact.Infrastructure.IoC;
 
 
@@ -17,8 +16,6 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddApplicationDependencies();
 builder.Services.AddInfrastructureDependencies();
 
 builder.Services.AddApiVersioning(opt =>

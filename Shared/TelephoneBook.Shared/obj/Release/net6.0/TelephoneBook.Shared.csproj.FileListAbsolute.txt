@@ -1,0 +1,12 @@
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\bin\Release\net6.0\TelephoneBook.Shared.deps.json
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\bin\Release\net6.0\TelephoneBook.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\bin\Release\net6.0\TelephoneBook.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.csproj.AssemblyReference.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.AssemblyInfoInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.AssemblyInfo.cs
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\refint\TelephoneBook.Shared.dll
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\TelephoneBook.Shared.pdb
+C:\Users\Cihan\Desktop\TelephoneBook\Shared\TelephoneBook.Shared\obj\Release\net6.0\ref\TelephoneBook.Shared.dll
