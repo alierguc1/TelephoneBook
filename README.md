@@ -135,10 +135,20 @@ durumunu "tamamlandı" olarak gözlemleyebilmesi gerekmektedir.
   POST http://localhost:5164/Reports/CreateReport
 ```
 
-#### - Proje Mimarisi
+### - Proje Mimarisi
 
 <p align="center">
   <img  src="https://github.com/alierguc1/TelephoneBook/blob/develop/docs/telephone_book_architec.png?raw=true">
 </p>
 
+### - Kullanılan Teknolojiler
+> .Net Core 6
+> MongoDB
+> RabbitMQ
+> Other : Healthcheck, api versioning
+### - Notlar
+- Healthcheck durumu görmek için ; 
+> Contact Healthcheck : http://localhost:5067/contact-service-health
+> 
+> Report Healthcheck : http://localhost:5064/report-service-health
 
